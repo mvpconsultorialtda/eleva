@@ -1,212 +1,210 @@
-### Instruções 1
-🌳 MENU LATERAL – ELEVA
-
-🧭 Geral
-🗂️ Editais Abertos
- → Todos os editais públicos disponíveis na plataforma.
-
-
-🏆 Projetos Aprovados
- → Galeria de projetos já aprovados (para inspiração, estudo, transparência).
-
-
-📈 Ranking de Arrecadação
- → Lista com maiores captadores:
-
-
-Por Pessoa
-
-
-Por Empresa
-
-
-Por Instituição
-
-
-
-👤 Minha Área
-🧾 Meus Editais
- → Onde o usuário já está inscrito, em rascunho ou submetido.
-
-
-🧪 Meus Projetos
- → Projetos em andamento ou criados pelo usuário.
-
-
-🛠️ Minhas Tarefas
- → Atividades e entregas pendentes.
-
-
-📥 Projetos Sugeridos pela Eleva
- → Projetos que o usuário pode adotar ou propor.
-
-
-🤝 Minhas Parcerias
- → Lista de colaboradores, empresas ou instituições com quem o usuário já trabalhou.
-
-
-
-⚙️ Conta
-🪪 Meu Perfil
- → Dados pessoais, documentos, vinculações (CPF/CNPJ etc).
-
-
-🔔 Notificações
- → Alertas e avisos importantes.
-
-
-🚪 Sair
-
-
-### Instruções 2
-
-🌱 Resumo do Projeto: Eleva
-Eleva é uma plataforma digital desenvolvida pela MVP Consultoria com foco em potencializar a participação em editais públicos e privados de fomento à educação, inovação, arte e cultura.
-A plataforma conecta proponentes (pessoas físicas ou jurídicas) com projetos estruturados e oferece todo o suporte técnico, operacional e estratégico para inscrição, gestão e execução dos projetos contemplados.
-
-🛠️ O que a Eleva faz:
-Seleciona e apoia proponentes com ou sem ideia inicial.
-
-
-Apresenta editais disponíveis e oportunidades alinhadas ao perfil do usuário.
-
-
-Escreve e submete os projetos para os editais escolhidos.
-
-
-Gere todas as fases do projeto, incluindo prestação de contas, acompanhamento e entregas.
-
-
-Atua como terceirizada ou parceira do proponente, recebendo por meio dos próprios recursos captados.
-
-
-Entrega os produtos e resultados previstos, principalmente em projetos de base tecnológica.
-
-
-
-🌿 Diferenciais:
-Visual inspirado na natureza e crescimento (verde, branco, árvore como símbolo).
-
-
-Navegação simples e fluida, com foco na experiência do usuário.
-
-
-Plataforma que permite atuação desde a ideia até a execução.
-
-
-Suporte integral: técnico, criativo, jurídico e administrativo.
-
-
-
-###Instrução 3.2 – Atualizer o componente de menu lateral com mais itens se nem todos tiverem lá
-Implementar um componente de menu lateral funcional, contendo os principais links para navegação dentro da plataforma. Os itens do menu serão:
-Editais Abertos
-
-
-Projetos Aprovados
-
-
-Ranking de Arrecadação
-
-
-Meus Projetos
-
-
-Propostas em Andamento
-
-
-Agenda & Prazos
-
-
-Suporte / Briefing
-
-
-O menu deverá apresentar uma divisão visual clara entre seções “Geral” (que abrange informações globais da plataforma) e “Pessoal” (relacionadas ao usuário e seus projetos). Cada item contará com ícones minimalistas e interativos que realcem a usabilidade, com efeitos de hover e clique para melhorar a experiência.
-
-###Instrução 3.3 – Criar a Página Inicial / Dashboard
-Construir uma página inicial que funcione como dashboard para o usuário, onde ele será recebido com um card de boas-vindas personalizado, mostrando o nome do usuário para criar uma conexão amigável.
-Além disso, incluir destaques rápidos que ofereçam uma visão geral relevante, como o número total de editais disponíveis, o ranking pessoal do usuário baseado em sua performance na plataforma e um histórico dos seus últimos acessos.
-Por fim, apresentar uma sugestão de edital aberto que possa interessar ao usuário, incentivando sua participação ativa na plataforma.
-
-###Instrução 3.4 – Implementar Página "Editais Abertos"
-Desenvolver uma página para listar todos os editais abertos, utilizando dados mockados inicialmente. Cada edital será exibido com informações essenciais como nome, tema, e prazo final para inscrição.
-Para facilitar a busca, poderá ser implementado um sistema simples de filtros por área de atuação, permitindo que o usuário refine a lista conforme seus interesses.
-Cada edital listado terá um botão “visualizar” que pode levar para uma página detalhada futuramente.
-
-###Instrução 3.5 – Implementar Página "Projetos Aprovados"
-Construir uma página que apresente os projetos aprovados organizados em cards visuais. Cada card exibirá o título do projeto, uma breve descrição e o status atual, como “aprovado” ou “financiado”.
-O layout deve ser limpo e facilitar a leitura rápida do status dos projetos, para que o usuário possa acompanhar facilmente seus progressos e realizações.
-
-###Instrução 3.6 – Implementar Página "Ranking de Arrecadação"
-Criar uma página com uma tabela que exiba rankings de arrecadação, permitindo filtros para segmentar por Pessoa Física, Empresa ou Instituição.
-As colunas da tabela incluirão o nome do participante, o total arrecadado em valores financeiros e o número de projetos submetidos ou apoiados.
-O objetivo é incentivar a competitividade saudável e transparência dentro da plataforma.
-
-###Instrução 3.7 – Criar Página "Meus Projetos"
-Desenvolver uma página dedicada aos projetos criados pelo usuário logado, listando-os com seus respectivos status: rascunho, enviado ou aprovado.
-Incluir um botão “Criar novo projeto” para permitir que o usuário inicie rapidamente um novo desenvolvimento, facilitando o fluxo de trabalho dentro da plataforma.
-
-###Instrução 3.8 – Criar Página "Propostas em Andamento"
-Implementar uma página com um editor de texto simples, que pode ser baseado em Markdown ou RichText, para que o usuário desenvolva suas propostas em andamento.
-As propostas terão salvamento automático utilizando localStorage, garantindo que o conteúdo não seja perdido caso o usuário saia da página.
-Incluir um botão “Enviar”, que inicialmente não terá funcionalidade, mas servirá para futura implementação do envio real da proposta.
-
-###Instrução 3.9 – Criar Página "Agenda & Prazos"
-Criar uma página com um calendário visual que exiba eventos importantes como prazos de envio, reuniões e outras datas relevantes, utilizando dados mockados para demonstração.
-Esta funcionalidade ajudará o usuário a organizar seu tempo e não perder datas críticas para os editais e projetos.
-
-###Instrução 3.10 – Criar Página "Suporte / Briefing"
-Desenvolver uma página contendo um formulário simples para contato e suporte, com campos para nome, e-mail e mensagem.
-O botão “Enviar” no momento apenas imprimirá as informações no console para simular o envio, servindo como base para futura integração com backend real.
-
-###Instrução 4.1 – Criar mocks de dados (em arquivos JSON locais)
-Preparar arquivos JSON que simulem as bases de dados da aplicação para facilitar o desenvolvimento frontend sem backend imediato. Arquivos a criar:
-editais.json (lista de editais)
-
-
-projetosAprovados.json (projetos aprovados)
-
-
-ranking.json (dados do ranking)
-
-
-meusProjetos.json (projetos do usuário)
-
-
-agenda.json (eventos da agenda)
-
-
-Estes mocks serão utilizados para alimentar as páginas e componentes até a integração real.
-
-###Instrução 4.2 – Criar funções de leitura dos dados mockados
-Implementar funções JavaScript que leiam os arquivos JSON locais simulando chamadas assíncronas via Promise e setTimeout, para dar uma sensação realista de requisição.
-Exemplos: getEditais(), getProjetos(), getRanking().
-Estas funções facilitarão o desenvolvimento e teste dos componentes que exibem dados.
-
-###Instrução 4.3 – Criar funções de escrita utilizando localStorage
-Desenvolver funções para salvar dados no localStorage do navegador, como propostas em andamento, novos projetos criados e mensagens enviadas no suporte.
-Estas funções possibilitarão que o usuário tenha uma experiência persistente, mesmo sem backend, garantindo que seus dados não sejam perdidos em recarregamentos.
-
-###Instrução 4.4 – Simular login e dados de usuário
-Criar um sistema simples de login simulado, armazenando no localStorage informações básicas do usuário, como ID e nome.
-Esses dados serão usados para personalizar a experiência, como exibir o nome no dashboard e associar projetos e propostas ao usuário.
-
-###Instrução 5.1 – Modularizar dados via hooks ou serviços
-Estruturar o código para separar a lógica de acesso a dados em hooks (React) ou serviços, como useEditais e useProjetos, facilitando a manutenção e futura substituição dessas chamadas por integrações reais, como Firebase.
-
-###Instrução 5.2 – Esboçar modelo de collections para Firebase
-Documentar o modelo inicial das collections no Firebase que suportarão a aplicação, com nomes e campos principais para cada coleção:
-users (usuários)
-
-
-editais (editais)
-
-
-projetos (projetos)
-
-
-ranking (dados do ranking)
-
-
-mensagens (suporte e briefing)
+### 6.1 – Modal de Criação de Projeto
+Objetivo: Permitir ao usuário iniciar rapidamente um novo projeto relacionado a um edital.
+Atividade: Criar um modal que aparece ao clicar em “Novo Projeto”, com campos básicos como título, categoria e resumo. A proposta poderá ser salva localmente como rascunho.
+Valor agregado: Facilita a prototipação de ideias e dá ao usuário uma experiência fluida de início de proposta sem sair da página.
+
+### 6.2 – Página Detalhada de Edital
+Objetivo: Fornecer ao usuário todas as informações relevantes de um edital antes da submissão.
+Atividade: Criar uma página dedicada com o conteúdo completo de cada edital selecionado, incluindo prazos, valores, critérios e documentos exigidos.
+Valor agregado: Ajuda na tomada de decisão informada e no planejamento da proposta.
+
+### 6.3 – Editor Completo de Projeto
+Objetivo: Oferecer um ambiente estruturado para o usuário desenvolver sua proposta completa.
+Atividade: Desenvolver a tela de edição com campos para descrição, objetivos, metas, orçamento, etc. Incluir botões de salvar rascunho e finalizar.
+Valor agregado: Permite o desenvolvimento progressivo da proposta com segurança e organização.
+
+### 7.1 – Integração com Biblioteca de Calendário
+Objetivo: Visualizar de forma clara os prazos e compromissos associados aos editais e projetos.
+Atividade: Utilizar uma biblioteca como fullcalendar para mostrar eventos e deadlines. Diferenciar tipos de eventos com cores.
+Valor agregado: Ajuda na organização e no cumprimento de prazos importantes.
+
+### 7.2 – Criação de Evento Manual
+Objetivo: Permitir que o usuário insira seus próprios eventos relacionados aos projetos e editais.
+Atividade: Criar um formulário para adicionar eventos com campos de data, título e descrição. Armazenar no localStorage.
+Valor agregado: Aumenta o controle do usuário sobre sua própria agenda de participação.
+
+### 8.1 – Sistema de Notificações Mockado
+Objetivo: Alertar o usuário sobre prazos e mudanças importantes na plataforma.
+Atividade: Criar um componente de notificação com badge e lista de mensagens simuladas.
+Valor agregado: Melhora a usabilidade e evita esquecimentos de prazos críticos.
+
+### 8.2 – Regras Simples para Geração de Notificações
+Objetivo: Gerar notificações automáticas com base em lógica simples.
+Atividade: Criar regras como “faltam 2 dias para o fim do edital X” e notificar o usuário.
+Valor agregado: Automatiza alertas importantes e contribui para a retenção de usuários ativos.
+
+### 9.1 – Comentários nas Propostas
+Objetivo: Permitir que usuários troquem feedbacks e colaborem diretamente dentro de uma proposta.
+Atividade: Adicionar uma área de comentários ao final de cada proposta, com campo de autor e data.
+Valor agregado: Cria um ambiente colaborativo e melhora a qualidade das propostas.
+
+### 9.2 – Compartilhamento de Propostas (mock)
+Objetivo: Simular o compartilhamento de uma proposta com outros usuários.
+Atividade: Criar uma função que adiciona e mostra “colaboradores” no projeto, baseando-se em e-mails digitados.
+Valor agregado: Prepara o terreno para colaboração real futura com controle de permissões.
+
+### 10.1 – Dashboard de Métricas Pessoais
+Objetivo: Apresentar dados sobre a atividade do usuário na plataforma.
+Atividade: Criar cards e gráficos com número de projetos submetidos, taxa de aprovação e valores simulados.
+Valor agregado: Gera insights pessoais, motiva engajamento e melhora a percepção de progresso.
+
+### 10.2 – Exportação Simples de Dados
+Objetivo: Permitir que o usuário baixe seus dados para análise externa.
+Atividade: Criar um botão para exportar em CSV informações dos projetos e propostas.
+Valor agregado: Oferece autonomia ao usuário e facilita apresentações ou relatórios offline.
+
+### 11.1 – Separar Serviços por Contexto
+Objetivo: Preparar a arquitetura da aplicação para uso com backend real.
+Atividade: Organizar todas as funções de acesso a dados em arquivos separados por tema, como editais.js ou usuarios.js.
+Valor agregado: Facilita a manutenção do código e a futura substituição do mock por chamadas reais de API.
+
+### 11.2 – Criar Adapter de LocalStorage para Backend
+Objetivo: Tornar possível alternar entre mock e dados reais sem refatorar tudo.
+Atividade: Criar funções genéricas como saveToLocal/saveToBackend, que usem lógica condicional para acessar o localStorage ou uma API.
+Valor agregado: Proporciona transição suave do protótipo para o produto final com backend real.
+
+### 12.1 – Firebase Config Inicial
+Objetivo: Iniciar a estrutura de backend real utilizando o Firebase.
+Atividade: Criar e configurar um projeto no Firebase e integrá-lo ao app Next.js.
+Valor agregado: Permite escalabilidade, autenticação segura e armazenamento em nuvem.
+
+### 12.2 – Autenticação Firebase
+Objetivo: Substituir o sistema de login mock por autenticação real.
+Atividade: Implementar login com e-mail/senha e integração com Google via Firebase Auth.
+Valor agregado: Melhora segurança, permite login real e prepara o app para produção.
+
+### 13.1 – Listagem de Propostas por Edital
+Objetivo: Exibir todas as propostas que o usuário criou para um edital específico.
+Atividade: Criar uma aba ou seção na página do edital que mostre os projetos relacionados.
+Valor agregado: Facilita a navegação e gerenciamento de propostas ativas e passadas.
+
+### 13.2 – Filtros e Busca de Propostas
+Objetivo: Ajudar o usuário a localizar rapidamente uma proposta específica.
+Atividade: Adicionar filtros por status (rascunho, enviado, aprovado) e campo de busca por nome.
+Valor agregado: Melhora a produtividade e evita perda de tempo procurando dados.
+
+### 13.3 – Sistema de Status de Proposta
+Objetivo: Indicar em que etapa cada proposta se encontra.
+Atividade: Adicionar rótulos visuais (ex: “Rascunho”, “Enviado”, “Aprovado”, “Rejeitado”) com ícones.
+Valor agregado: Dá clareza sobre o andamento da proposta e reduz incertezas.
+
+### 13.4 – Histórico de Alterações
+Objetivo: Registrar mudanças feitas em uma proposta.
+Atividade: Criar uma timeline com data, campo alterado e valor anterior/novo.
+Valor agregado: Facilita auditoria e controle colaborativo da proposta.
+
+### 13.5 – Upload de Arquivos Complementares
+Objetivo: Permitir envio de documentos exigidos pelo edital.
+Atividade: Criar campo de upload com tipos aceitos (PDF, DOCX, etc.).
+Valor agregado: Centraliza todas as informações necessárias para submissão em um só lugar.
+
+### 13.6 – Validador de Campos Obrigatórios
+Objetivo: Impedir o envio de propostas incompletas.
+Atividade: Implementar verificação automática de preenchimento mínimo antes de permitir salvar ou enviar.
+Valor agregado: Reduz erros de submissão e aumenta chance de aprovação.
+
+### 13.7 – Sistema de Rascunhos Automáticos
+Objetivo: Evitar perda de trabalho por fechamento acidental da aba.
+Atividade: Salvar automaticamente alterações em localStorage ou Firebase a cada X minutos.
+Valor agregado: Melhora a experiência do usuário e protege o tempo investido.
+
+### 13.8 – Editor com Sugestões Inteligentes (Mock)
+Objetivo: Ajudar o usuário a melhorar a escrita da proposta.
+Atividade: Inserir sugestões simuladas de melhoria ao lado de cada campo textual.
+Valor agregado: Estimula o aperfeiçoamento da proposta e educa o usuário.
+
+### 13.9 – Seletor de Modelos de Proposta
+Objetivo: Acelerar a escrita com estruturas pré-definidas.
+Atividade: Criar templates com tópicos orientadores e exemplos simulados.
+Valor agregado: Reduz barreiras para iniciantes e padroniza a qualidade das submissões.
+
+### 14.1 – Integração com Google Drive (Mock)
+Objetivo: Simular exportação automática da proposta para o Drive do usuário.
+Atividade: Criar botão com ícone do Google Drive que salva uma cópia localmente e exibe aviso.
+Valor agregado: Cria hábito de backup externo mesmo sem integração real.
+
+### 14.2 – Modo Apresentação da Proposta
+Objetivo: Permitir visualizar a proposta em formato de leitura amigável.
+Atividade: Criar uma tela com layout limpo, sem campos editáveis.
+Valor agregado: Facilita revisão e compartilhamento visual da ideia.
+
+### 14.3 – Impressão e Exportação em PDF
+Objetivo: Permitir envio físico ou formal da proposta.
+Atividade: Criar botão que exporta a proposta no modo apresentação em PDF.
+Valor agregado: Adiciona versatilidade e utilidade no mundo offline.
+
+### 14.4 – Destaque de Propostas Finalizadas
+Objetivo: Ajudar o usuário a distinguir projetos prontos dos inacabados.
+Atividade: Aplicar selo ou borda colorida para propostas marcadas como finalizadas.
+Valor agregado: Melhora a organização e evita erros de envio.
+
+### 14.5 – Marcação de Propostas Favoritas
+Objetivo: Permitir que o usuário destaque projetos prioritários.
+Atividade: Criar botão de “estrela” ou “coração” que mova a proposta para o topo da lista.
+Valor agregado: Personaliza a experiência e ajuda a focar no que importa.
+
+### 14.6 – Integração com Trello (Mock)
+Objetivo: Simular organização das propostas por quadro Kanban.
+Atividade: Criar interface visual com colunas tipo “ideia”, “em rascunho”, “finalizado”.
+Valor agregado: Oferece visão macro do progresso de todas as propostas.
+
+### 14.7 – Criação de Equipes de Projeto (Mock)
+Objetivo: Simular estrutura de equipe por proposta.
+Atividade: Permitir adicionar nomes fictícios e atribuições por função (redator, coordenador etc.).
+Valor agregado: Prepara para integração real com times e divisão de tarefas.
+
+### 14.8 – Avaliação Simulada por Pares
+Objetivo: Simular uma análise externa da proposta.
+Atividade: Gerar feedback automático ou permitir troca entre usuários do sistema.
+Valor agregado: Aumenta qualidade das propostas antes do envio real.
+
+### 14.9 – Relatório de Pontos Fortes e Fracos (Mock)
+Objetivo: Apontar áreas que merecem revisão.
+Atividade: Criar painel com análise simulada de aspectos como clareza, impacto e orçamento.
+Valor agregado: Educa o usuário e melhora a proposta com base em critérios avaliativos.
+
+### 15.1 – Integração com Chat de Suporte (Mock)
+Objetivo: Simular atendimento em tempo real.
+Atividade: Adicionar ícone de chat com respostas pré-programadas sobre como preencher campos.
+Valor agregado: Aumenta confiança do usuário e reduz abandono.
+
+### 15.2 – Página de Dúvidas Frequentes (FAQ)
+Objetivo: Ajudar usuários com perguntas comuns.
+Atividade: Criar seção com colapsáveis sobre funcionamento da plataforma, prazos, etc.
+Valor agregado: Reduz suporte necessário e melhora usabilidade.
+
+### 15.3 – Cadastro de Novo Edital (Mock)
+Objetivo: Simular envio de novo edital pela organização.
+Atividade: Criar tela administrativa com campos para título, regras e datas.
+Valor agregado: Permite testes futuros com perfis de admins e curadores.
+
+### 15.4 – Tela de Convite para Editais por E-mail (Mock)
+Objetivo: Simular envio de convite para amigos participarem de um edital.
+Atividade: Criar formulário com campo de e-mail e mensagem.
+Valor agregado: Incentiva uso da plataforma de forma viral e colaborativa.
+
+### 15.5 – Seletor de Idioma da Plataforma
+Objetivo: Tornar a aplicação acessível a falantes de outros idiomas.
+Atividade: Adicionar um dropdown para trocar entre “PT-BR” e “EN” com textos mockados.
+Valor agregado: Prepara a plataforma para expansão internacional.
+
+### 15.6 – Timeline da Plataforma
+Objetivo: Mostrar evolução do projeto/propostas ao longo do tempo.
+Atividade: Criar linha do tempo visual com marcos importantes.
+Valor agregado: Dá perspectiva e estimula progresso contínuo.
+
+### 15.7 – Gamificação com Pontos e Selos
+Objetivo: Estimular engajamento dos usuários.
+Atividade: Criar pontos por ações (ex: preencher tudo, submeter, revisar), com selos visuais.
+Valor agregado: Torna a experiência mais divertida e recompensadora.
+
+### 15.8 – Página Pública com Ranking de Propostas
+Objetivo: Simular ambiente de competição positiva entre participantes.
+Atividade: Criar leaderboard com pontuação simulada e nomes fictícios.
+Valor agregado: Estimula a qualidade e aumenta a interação com a plataforma.
+
+### 15.9 – Simulador de Chance de Aprovação (Mock)
+Objetivo: Indicar ao usuário a maturidade da proposta.
+Atividade: Criar um gráfico fictício com nota de 0 a 100 com base em critérios simples.
+Valor agregado: Gera consciência crítica e incentiva melhoria contínua.
 
