@@ -1,8 +1,3 @@
-### 6.1 – Modal de Criação de Projeto
-Objetivo: Permitir ao usuário iniciar rapidamente um novo projeto relacionado a um edital.
-Atividade: Criar um modal que aparece ao clicar em “Novo Projeto”, com campos básicos como título, categoria e resumo. A proposta poderá ser salva localmente como rascunho.
-Valor agregado: Facilita a prototipação de ideias e dá ao usuário uma experiência fluida de início de proposta sem sair da página.
-
 ### 6.2 – Página Detalhada de Edital
 Objetivo: Fornecer ao usuário todas as informações relevantes de um edital antes da submissão.
 Atividade: Criar uma página dedicada com o conteúdo completo de cada edital selecionado, incluindo prazos, valores, critérios e documentos exigidos.
